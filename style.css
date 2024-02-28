@@ -22,16 +22,16 @@ h1{
 
 #contenido{
 
-    width: 45%;
+    width: 50%;
     height: 100%;
     float: left;
-    
+
 }
 
 #detalle{
     text-align: center; 
     background: aquamarine;
-    width: 55%;
+    width: 50%;
     height: 100%;
     float: left;
     letter-spacing: 1px;
@@ -40,8 +40,8 @@ h1{
 h3{
     font-family: "Smooch Sans", sans-serif;
     font-size: 12px;
-    color: rgb(166, 164, 164);
-    letter-spacing: 2px;    
+    color: black;
+    letter-spacing: 3px;
 }
 
 input{
@@ -52,11 +52,11 @@ input{
     border: none;
     background-color: #eee;
     border-radius: 5px;
-    
+
 }
 
 h2{
-    letter-spacing: 10px;
+    letter-spacing: 20px;
     color: rgb(255, 255, 255);
     font-size: 40px;
     text-align: center;
@@ -66,7 +66,7 @@ h2{
 p{
     font-size: 25px;
     color: rgb(81, 199, 238); 
-    
+
 }
 
 button{
@@ -84,28 +84,4 @@ button{
 
 button:active {
 	transform: scale(0.85);
-}
-#error{
-    letter-spacing: 1px;
-    display: none;
-    font-size: 15px;
-    color: red; 
-
-}
-#resultado_flu,
-#resultado_man {
-    margin-top: 5px;
-    padding: 10px;
-    background-color: #f3f3f3;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-#resultado_flu::before,
-#resultado_man::before {
-    content: attr(id);
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #333;
 }
